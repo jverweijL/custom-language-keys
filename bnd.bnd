@@ -1,0 +1,4 @@
+Bundle-Name: custom-language-keys
+Bundle-SymbolicName: custom.language.keys
+Bundle-Version: 1.0.0
+Export-Package: custom.language.keys.*
