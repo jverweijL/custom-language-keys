@@ -9,5 +9,6 @@ However, there's also an option to create them in a more global way.
 Have a look at the code.  
 For each language you need a ResourceBundle extension and a Language_xx_XX.properties file with the translated keys.
 Nice thing is you can directly use the translated keys in your freemarker templates like `<@liferay.language key="custom.arrange.immediately" />`
+You can also use these (custom) language keys in fragments with `[@liferay.language key="custom.arrange.immediately" /]`
 
 Haven't tested it but it's likely you can also override existing keys so handle with care ;-)
